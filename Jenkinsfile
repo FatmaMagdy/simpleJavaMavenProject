@@ -34,7 +34,7 @@ pipeline {
                // nexusPublisher nexusInstanceId: 'gcpnexus', nexusRepositoryId: 'releases', packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: '', extension: '', filePath: 'target/myMavenPipelineProject-0.0.1-SNAPSHOT.war']], mavenCoordinate: [artifactId: 'hcl2', groupId: 'com.org', packaging: 'war', version: '0.3']]]
                //nexusPublisher nexusInstanceId: 'gcpnexus', nexusRepositoryId: 'testid', packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: '', extension: '', filePath: 'target/myMavenPipelineProject-0.0.1-SNAPSHOT.war']], mavenCoordinate: [artifactId: 'myproject', groupId: 'org.com.hcl', packaging: 'war', version: '0.1']]]
                //nexusPublisher nexusInstanceId: 'gcpnexus', nexusRepositoryId: 'testid', packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: '', extension: '', filePath: 'target/myMavenPipelineProject-0.0.1-SNAPSHOT.war']], mavenCoordinate: [artifactId: 'myproject1', groupId: 'org.com.hcl', packaging: 'war', version: '0.1']]]
-                nexusPublisher nexusInstanceId: 'gcpnexus', nexusRepositoryId: 'releases', packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: '', extension: '', filePath: 'target/myMavenPipelineProject-0.0.1-SNAPSHOT.war']], mavenCoordinate: [artifactId: 'hcl00', groupId: 'org.com', packaging: 'war', version: '0.1']]]
+                nexusPublisher nexusInstanceId: 'gcpnexus', nexusRepositoryId: 'releases', packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: '', extension: '', filePath: 'target/myMavenPipelineProject-0.0.1-SNAPSHOT.war']], mavenCoordinate: [artifactId: 'hcl0', groupId: 'org.com', packaging: 'war', version: '0.1']]]
 
             }
         }
