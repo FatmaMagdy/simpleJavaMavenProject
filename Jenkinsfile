@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        registry = "naga488/samplejavamavenproject"
+        registry = "fatmaadmin/dockerhub"
         registryCredential = "dockerhub"
                     // This can be nexus3 or nexus2
         NEXUS_VERSION = "nexus2"
